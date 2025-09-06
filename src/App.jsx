@@ -44,7 +44,7 @@ function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
-  const [timer, setTimer] = useState(450);
+  const [timer, setTimer] = useState(75);
   const [shuffledQuestions, setShuffledQuestions] = useState([]);
 
   useEffect(() => {
